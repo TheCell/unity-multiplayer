@@ -4,8 +4,9 @@ using UnityEngine.AI;
 
 public class UnitMovement : NetworkBehaviour
 {
-    [SerializeField]
-    private NavMeshAgent agent = null;
+    [SerializeField] private NavMeshAgent agent = null;
+    [SerializeField] private Targeter targeter = null;
+    [SerializeField] private float chaseRange = 10f;
 
     private Camera mainCamera;
 
@@ -14,6 +15,22 @@ public class UnitMovement : NetworkBehaviour
     [ServerCallback]
     private void Update()
     {
+        var target = targeter.GetTarget();
+
+        if (target != null)
+        {
+            if ((target.transform.position - transform.position).sqrMagnitude > chaseRange * chaseRange)
+            {
+                agent.SetDestination(target.transform.position);
+            }
+            else if (agent.hasPath)
+            {
+                agent.ResetPath();
+            }
+
+            return;
+        }
+
         if (!agent.hasPath)
         {
             return;
@@ -30,6 +47,8 @@ public class UnitMovement : NetworkBehaviour
     [Command]
     public void CmdMove(Vector3 position)
     {
+        targeter.ClearTarget();
+
         if (!NavMesh.SamplePosition(position, out NavMeshHit hit, 1f, NavMesh.AllAreas))
         {
             return;
