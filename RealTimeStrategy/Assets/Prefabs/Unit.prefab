@@ -102,6 +102,7 @@ GameObject:
   - component: {fileID: 7225279029530474921}
   - component: {fileID: 6036212140618104820}
   - component: {fileID: 4703408800425615039}
+  - component: {fileID: 2479934867044762037}
   m_Layer: 10
   m_Name: Unit
   m_TagString: Untagged
@@ -221,6 +222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  resourceCost: 10
   health: {fileID: 6036212140618104820}
   unitMovement: {fileID: -7194095402519990032}
   targeter: {fileID: -3393100087549502241}
@@ -346,6 +348,22 @@ MonoBehaviour:
   health: {fileID: 6036212140618104820}
   healthBarParent: {fileID: 1186475439812497094}
   healthBarImage: {fileID: 1186475439729550700}
+--- !u!114 &2479934867044762037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3811812989071847991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5af998c9901eee54cb6f1b1e40bd77fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  colorRenderers:
+  - {fileID: 1952243441762230732}
 --- !u!1 &4337438086915431079
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,6 +492,11 @@ PrefabInstance:
 --- !u!4 &818792898996542115 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 910cdc20cee171147a321aaf3d0e3316, type: 3}
+  m_PrefabInstance: {fileID: 925022090874092872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1952243441762230732 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 910cdc20cee171147a321aaf3d0e3316, type: 3}
   m_PrefabInstance: {fileID: 925022090874092872}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5332420739548343213
