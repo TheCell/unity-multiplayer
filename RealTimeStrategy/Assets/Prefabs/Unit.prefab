@@ -444,7 +444,6 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   colorRenderers:
-  - {fileID: 0}
   - {fileID: 1296099320906529781}
 --- !u!1 &4337438086915431079
 GameObject:
