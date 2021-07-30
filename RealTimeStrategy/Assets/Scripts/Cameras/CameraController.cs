@@ -77,7 +77,6 @@ public class CameraController : NetworkBehaviour
         pos.x = Mathf.Clamp(pos.x, screenXLimits.x, screenXLimits.y);
         pos.z = Mathf.Clamp(pos.z, screenZLimits.x, screenZLimits.y);
 
-        Debug.Log(pos);
         playerCameraTransform.position = pos;
     }
 
