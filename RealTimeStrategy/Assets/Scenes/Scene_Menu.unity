@@ -354,5 +354,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: spawnPrefabs.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: spawnPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 6907050497120516369, guid: 9d718fd47f9ad5d4792071a92e17c8c2, type: 3}
+    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: spawnPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 3813733204309990297, guid: 5b838476c84b8ad4bb63eea325e7d70d, type: 3}
+    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: spawnPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 6907050497120516369, guid: d4345da0d5e83194b966ae831b6b6dd6, type: 3}
+    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: spawnPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 2027330314583450793, guid: 4d80a6d7a9dc12440bea8f96d81e909e, type: 3}
+    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: spawnPrefabs.Array.data[4]
+      value: 
+      objectReference: {fileID: 2323584835013317747, guid: e9a8a918f6f3cd24fb4b2745f246a720, type: 3}
+    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: spawnPrefabs.Array.data[5]
+      value: 
+      objectReference: {fileID: 6609276076643781778, guid: 467e49cc74ad15140a68a20e2593230a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
