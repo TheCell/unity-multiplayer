@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 9063057511883689512}
   - component: {fileID: 9063057511883689513}
   - component: {fileID: 9063057511883689510}
-  - component: {fileID: 9063057511883689511}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -64,12 +63,15 @@ MonoBehaviour:
   autoCreatePlayer: 1
   playerSpawnMethod: 1
   spawnPrefabs:
-  - {fileID: 3811812989071847991, guid: 80430d5289819044b8f24584efebb96f, type: 3}
   - {fileID: 6907050497120516369, guid: 9d718fd47f9ad5d4792071a92e17c8c2, type: 3}
-  - {fileID: 6060068304683207937, guid: 86a87b781ea80f04fa3aceb24f5fe330, type: 3}
   - {fileID: 3813733204309990297, guid: 5b838476c84b8ad4bb63eea325e7d70d, type: 3}
-  - {fileID: 6907050497120516369, guid: 15ecac10fcdc72e46beac396eb7b6b79, type: 3}
   - {fileID: 6907050497120516369, guid: d4345da0d5e83194b966ae831b6b6dd6, type: 3}
+  - {fileID: 2027330314583450793, guid: 4d80a6d7a9dc12440bea8f96d81e909e, type: 3}
+  - {fileID: 2323584835013317747, guid: e9a8a918f6f3cd24fb4b2745f246a720, type: 3}
+  - {fileID: 6609276076643781778, guid: 467e49cc74ad15140a68a20e2593230a, type: 3}
+  - {fileID: 1233254176617467920, guid: 726daa053bf1eea4b9dbca88be566ec7, type: 3}
+  - {fileID: 8264409627754077016, guid: 97156b3840e681d438f5fa8198b4052f, type: 3}
+  - {fileID: 8796492614886732912, guid: 3ecaea0c01ee2344380ba43d0162fb4f, type: 3}
   unitSpawnerPrefab: {fileID: 6907050497120516369, guid: 9d718fd47f9ad5d4792071a92e17c8c2, type: 3}
   gameOverHandlerPrefab: {fileID: 5117351571137233748, guid: 5b838476c84b8ad4bb63eea325e7d70d, type: 3}
 --- !u!114 &9063057511883689510
@@ -95,18 +97,3 @@ MonoBehaviour:
   debugLog: 0
   statisticsGUI: 0
   statisticsLog: 0
---- !u!114 &9063057511883689511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9063057511883689508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6442dc8070ceb41f094e44de0bf87274, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showGUI: 1
-  offsetX: 0
-  offsetY: 0
