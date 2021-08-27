@@ -79,6 +79,10 @@ PrefabInstance:
       propertyPath: colorRenderers.Array.data[0]
       value: 
       objectReference: {fileID: 7353637624185470753}
+    - target: {fileID: 2479934867044762037, guid: 80430d5289819044b8f24584efebb96f, type: 3}
+      propertyPath: colorRenderers.Array.data[1]
+      value: 
+      objectReference: {fileID: 3749117922918259154}
     - target: {fileID: 2511435566766492976, guid: 80430d5289819044b8f24584efebb96f, type: 3}
       propertyPath: m_LocalScale.z
       value: 2.3016279
@@ -172,6 +176,11 @@ PrefabInstance:
 --- !u!4 &2652542272251793319 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 86862176950906240, guid: 80430d5289819044b8f24584efebb96f, type: 3}
+  m_PrefabInstance: {fileID: 2736818118110601767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3749117922918259154 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1296099320906529781, guid: 80430d5289819044b8f24584efebb96f, type: 3}
   m_PrefabInstance: {fileID: 2736818118110601767}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8200153136923878309

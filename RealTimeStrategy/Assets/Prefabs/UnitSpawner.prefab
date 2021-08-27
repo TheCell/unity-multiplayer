@@ -345,14 +345,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
       propertyPath: colorRenderers.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
       propertyPath: colorRenderers.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5434953352186314429}
     - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
       propertyPath: colorRenderers.Array.data[1]
+      value: 
+      objectReference: {fileID: 5434953352186314429}
+    - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
+      propertyPath: colorRenderers.Array.data[2]
+      value: 
+      objectReference: {fileID: 5434953352186314429}
+    - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
+      propertyPath: colorRenderers.Array.data[3]
+      value: 
+      objectReference: {fileID: 5434953352186314429}
+    - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
+      propertyPath: colorRenderers.Array.data[4]
+      value: 
+      objectReference: {fileID: 5434953352186314429}
+    - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
+      propertyPath: colorRenderers.Array.data[5]
+      value: 
+      objectReference: {fileID: 5434953352186314429}
+    - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
+      propertyPath: colorRenderers.Array.data[6]
+      value: 
+      objectReference: {fileID: 5434953352186314429}
+    - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
+      propertyPath: colorRenderers.Array.data[7]
+      value: 
+      objectReference: {fileID: 5434953352186314429}
+    - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
+      propertyPath: colorRenderers.Array.data[8]
+      value: 
+      objectReference: {fileID: 5434953352186314429}
+    - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
+      propertyPath: colorRenderers.Array.data[9]
+      value: 
+      objectReference: {fileID: 5434953352186314429}
+    - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
+      propertyPath: colorRenderers.Array.data[10]
+      value: 
+      objectReference: {fileID: 5434953352186314429}
+    - target: {fileID: 7241846234727980114, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
+      propertyPath: colorRenderers.Array.data[11]
       value: 
       objectReference: {fileID: 5434953352186314429}
     - target: {fileID: 8518826745653054935, guid: 9a647688b6f8ea8488dcc674ce585ff7, type: 3}
