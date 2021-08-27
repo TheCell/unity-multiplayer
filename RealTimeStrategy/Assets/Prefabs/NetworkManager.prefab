@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 9063057511883689512}
   - component: {fileID: 9063057511883689513}
   - component: {fileID: 9063057511883689510}
+  - component: {fileID: 4153700272446671692}
+  - component: {fileID: 9037254744934570130}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -49,11 +51,9 @@ MonoBehaviour:
   runInBackground: 1
   autoStartServerBuild: 1
   serverTickRate: 30
-  serverBatching: 1
-  serverBatchInterval: 0
   offlineScene: Assets/Scenes/Scene_Menu.unity
-  onlineScene: Assets/Scenes/Scene_Map_01.unity
-  transport: {fileID: 9063057511883689510}
+  onlineScene: 
+  transport: {fileID: 4153700272446671692}
   networkAddress: localhost
   maxConnections: 100
   disconnectInactiveConnections: 0
@@ -72,7 +72,7 @@ MonoBehaviour:
   - {fileID: 1233254176617467920, guid: 726daa053bf1eea4b9dbca88be566ec7, type: 3}
   - {fileID: 8264409627754077016, guid: 97156b3840e681d438f5fa8198b4052f, type: 3}
   - {fileID: 8796492614886732912, guid: 3ecaea0c01ee2344380ba43d0162fb4f, type: 3}
-  unitSpawnerPrefab: {fileID: 6907050497120516369, guid: 9d718fd47f9ad5d4792071a92e17c8c2, type: 3}
+  unitBasePrefab: {fileID: 6907050497120516369, guid: 9d718fd47f9ad5d4792071a92e17c8c2, type: 3}
   gameOverHandlerPrefab: {fileID: 5117351571137233748, guid: 5b838476c84b8ad4bb63eea325e7d70d, type: 3}
 --- !u!114 &9063057511883689510
 MonoBehaviour:
@@ -81,12 +81,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9063057511883689508}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Port: 7777
+  DualMode: 1
   NoDelay: 1
   Interval: 10
   Timeout: 10000
@@ -94,6 +95,37 @@ MonoBehaviour:
   CongestionWindow: 0
   SendWindowSize: 4096
   ReceiveWindowSize: 4096
+  NonAlloc: 1
   debugLog: 0
   statisticsGUI: 0
   statisticsLog: 0
+--- !u!114 &4153700272446671692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063057511883689508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea368fb6f27ec2f40a40e20977992b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Channels: 0200000001000000
+  Timeout: 25
+  SteamAppID: 480
+  AllowSteamRelay: 1
+  UseNextGenSteamNetworking: 1
+  SteamUserID: 0
+--- !u!114 &9037254744934570130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063057511883689508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef4bffeda13d7a748973ff9204401c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

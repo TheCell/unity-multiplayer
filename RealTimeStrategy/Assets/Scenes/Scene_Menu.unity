@@ -1910,6 +1910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   landingPagePanel: {fileID: 193408872}
+  useSteam: 0
 --- !u!1 &862001170
 GameObject:
   m_ObjectHideFlags: 0
@@ -2673,14 +2674,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
-      propertyPath: onlineScene
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
-      propertyPath: unitBasePrefab
-      value: 
-      objectReference: {fileID: 6907050497120516369, guid: 9d718fd47f9ad5d4792071a92e17c8c2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
 --- !u!1 &1461224430
