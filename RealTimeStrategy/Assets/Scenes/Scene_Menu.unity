@@ -2626,9 +2626,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4153700272446671692, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9037254744934570130, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9063057511883689508, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
       propertyPath: m_Name
       value: NetworkManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063057511883689510, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9063057511883689512, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
       propertyPath: m_RootOrder
@@ -2674,6 +2686,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: transport
+      value: 
+      objectReference: {fileID: 2101711121}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
 --- !u!1 &1461224430
@@ -4160,3 +4176,14 @@ MonoBehaviour:
   landingPagePanel: {fileID: 193408872}
   addressInput: {fileID: 128479445}
   joinButton: {fileID: 1774859734}
+--- !u!114 &2101711121 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9063057511883689510, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+  m_PrefabInstance: {fileID: 1458142422}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
