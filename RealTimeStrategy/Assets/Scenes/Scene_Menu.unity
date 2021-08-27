@@ -1960,6 +1960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lobbyUi: {fileID: 1188203250}
+  startGameButton: {fileID: 1876994699}
 --- !u!1 &1057283527
 GameObject:
   m_ObjectHideFlags: 0
@@ -2671,6 +2672,10 @@ PrefabInstance:
       propertyPath: onlineScene
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 9063057511883689513, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
+      propertyPath: unitBasePrefab
+      value: 
+      objectReference: {fileID: 6907050497120516369, guid: 9d718fd47f9ad5d4792071a92e17c8c2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3ce16d5fbac0914c972e70bf97c5846, type: 3}
 --- !u!1 &1461224430
@@ -3698,7 +3703,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1876994700}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 862001172}
+        m_TargetAssemblyTypeName: LobbyMenu, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1876994700
 MonoBehaviour:
   m_ObjectHideFlags: 0
